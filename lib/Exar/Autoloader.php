@@ -16,7 +16,7 @@ class Autoloader {
     /**
      * Registers this autoloader on the autoloader queue.
      *
-     * @param $cacheDir the path to cache directory
+     * @param string $cacheDir the path to cache directory
      * @param array $namespaces array with nmespaces to be loaded with this autoloader
      * @param bool $prepend if true, this autoloader will be prepended on the autoload queue, otherwise it is appended
      */
